@@ -5,18 +5,6 @@ import { GeistMono } from 'geist/font/mono';
 const fontSans = GeistSans;
 const fontMono = GeistMono;
 
-const geistSans = GeistSans({
-  subsets: ["latin"],
-  variable: '--font-geist-sans',
-  display: 'swap'
-});
-
-const geistMono = GeistMono({
-  subsets: ["latin"], 
-  variable: '--font-geist-mono',
-  display: 'swap'
-});
-
 export default function RootLayout({
   children,
 }: Readonly<{
